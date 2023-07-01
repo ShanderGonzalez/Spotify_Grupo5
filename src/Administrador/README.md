@@ -1,5 +1,6 @@
-# Clase GestorDeLista
+# Administrador
 
+Basandose en la construcción del diagrama de subsitemas se establecio el paquete "Administrador" el cual tiene como base a la clase "GestorDeLista".
 La clase "GestorDeLista" proporciona funcionalidades para gestionar listas de reproducción y manipular la base de datos asociada.
 En esta clase se implementan los métodos de:
 
