@@ -6,13 +6,18 @@ Por ello se implemento un ```extends NanoHTTPD``` en el que se pudo hacer uso de
 
 | Funciones      | Descripción | Tipo de retorno |
 | ----------- | ----------- | ----------- |
-| detenerServidor() | Detiene el puerto del servidor que este en uso | void |
+| detenerServidor | Detiene el puerto del servidor que este en uso | void |
 
 Puede encontrar el código en [CompartirMusica.java](https://github.com/ShanderGonzalez/Spotify_Grupo5/blob/master/src/NSpotifyChino/CompartirMusica.java "CompartirMusica.java")
 
 La clase "ConexionSQLite" es aquella clase que permite comunicar al programa de Spotify con la base de datos generada en sqlite. Esto permite realizar una conexion entre todas las clases que implementen de ella para el uso y verificacion de datos.
 
-Esta clase toma como atributo la URL de donde esta almacenado la base de datos en el computador. Tambien se establecen dos métodos como lo es ```conectar()``` y ```desconectar()``` respecto a la conexion de la base de datos.
+Esta clase toma como atributo la URL de donde esta almacenado la base de datos en el computador. Tambien se establecen dos métodos como lo se presenta acontinuación:
+
+| Funciones      | Descripción | Tipo de retorno |
+| ----------- | ----------- | ----------- |
+| conectar | Conectar con la base de datos de sqlite | void |
+| desconectar | Desconectar con la base de datos de sqlite | void |
 
 Puede encontar el código en [ConexionSQLite.java](https://github.com/ShanderGonzalez/Spotify_Grupo5/blob/master/src/NSpotifyChino/ConexionSQLite.java "ConexionSQLite.java")
 
