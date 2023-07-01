@@ -6,6 +6,6 @@
    3. [Reproduccion](https://github.com/ShanderGonzalez/Spotify_Grupo5/tree/master/src/Reproduccion "Reproduccion")
    4. [Usuario](https://github.com/ShanderGonzalez/Spotify_Grupo5/tree/master/src/Usuario "Usuario")
 
-      Los paquetes en 1, 2, 3, 4 contienen las clases .java que se implementarion en el proyecto.
+      Los paquetes en 1, 2, 3, 4 contienen las clases .java que se implementaron en el proyecto.
 
 [Componentes usados](https://github.com/ShanderGonzalez/Spotify_Grupo5/tree/master/dist/lib "Componentes usados"): Contienen los componentes .jar que permitieron la realizacion del proyecto.
