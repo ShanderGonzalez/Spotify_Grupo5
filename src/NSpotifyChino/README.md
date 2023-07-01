@@ -12,7 +12,7 @@ Puede encontrar el código en [CompartirMusica.java](https://github.com/ShanderG
 
 La clase "ConexionSQLite" es aquella clase que permite comunicar al programa de Spotify con la base de datos generada en sqlite. Esto permite realizar una conexion entre todas las clases que implementen de ella para el uso y verificacion de datos.
 
-Esta clase toma como atributo la URL de donde esta almacenado la base de datos en el computador. Tambien se establecen dos métodos como lo se presenta acontinuación:
+Esta clase toma como atributo la URL de donde esta almacenado la base de datos en el computador. Tambien se establecen dos métodos como se presenta acontinuación:
 
 | Funciones      | Descripción | Tipo de retorno |
 | ----------- | ----------- | ----------- |
