@@ -1,6 +1,7 @@
 # Usuario
 
 Basandose en la creacion del diagrama de subsistema, se implemento el paquete "Usuario" el cual contiene las clases de "Autentificar" y la clase "GUI" los cuales son indispensables para la perspectiva del usuario.
+
 La clase "Autentificar" permite al usuario ingresar y validar si su logueo en el proyecto spotify esta especificado en la base de datos.
 Esta clase cumple con cierto método para el usuario:
 | Funciones      | Descripción | Tipo de retorno |
