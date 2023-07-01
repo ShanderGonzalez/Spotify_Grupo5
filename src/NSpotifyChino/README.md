@@ -2,7 +2,11 @@
 Se tiene el paquete "NSpotifyChino" el cual contiene las clases de "CompartirMusica", "ConexionSQLite" y la clase "ControlDeBusqueda". Estas clasese respecto a este paquete son externos al subsistema ya que no se muestran al usuario por medio de una interfaz util. Es decir; que esto es parte del desarrollo interno del proyecto como la parte backend.
 
 La clase "CompartirMusica" permite crear un servidor en base a la libreria ```nanoHTTPD.jar``` el cual establece una conexion en el puerto **8080** para compartir la música con otros usuarios.
-Por ello se implemento un ```extends NanoHTTPD``` en el que se pudo hacer uso del método ```public Response serve(IHTTPSession session)```, esto permite establecer una conexion del servidor y compartir la música. El método ```detenerServidor()``` el cual detiene el puerto del servidor que este en uso.
+Por ello se implemento un ```extends NanoHTTPD``` en el que se pudo hacer uso del método ```public Response serve(IHTTPSession session)```, esto permite establecer una conexion del servidor y compartir la música.
+
+| Funciones      | Descripción | Tipo de retorno |
+| ----------- | ----------- | ----------- |
+| detenerServidor() | Detiene el puerto del servidor que este en uso | void |
 
 Puede encontrar el código en [CompartirMusica.java](https://github.com/ShanderGonzalez/Spotify_Grupo5/blob/master/src/NSpotifyChino/CompartirMusica.java "CompartirMusica.java")
 
