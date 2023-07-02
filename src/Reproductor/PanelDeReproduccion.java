@@ -1,4 +1,4 @@
-package Reproduccion;
+package Reproductor;
 
 
 import javax.sound.sampled.*;

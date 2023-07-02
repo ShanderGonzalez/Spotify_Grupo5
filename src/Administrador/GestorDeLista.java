@@ -4,7 +4,7 @@
  */
 package Administrador;
 
-import Reproduccion.Lista;
+import Reproductor.Lista;
 import java.util.List;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
