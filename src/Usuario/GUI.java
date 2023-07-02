@@ -10,7 +10,6 @@ import NSpotifyChino.ControlDeBusqueda;
 import Administrador.GestorDeLista;
 import Reproductor.Lista;
 import Reproductor.PanelDeReproduccion;
-import java.io.IOException;
 import java.sql.ResultSet;
 import java.sql.Connection;
 import java.util.Scanner;
