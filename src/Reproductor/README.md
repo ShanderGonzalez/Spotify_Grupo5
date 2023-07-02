@@ -1,5 +1,5 @@
 # Reproductor
-Basandose en la creacion del diagrama de subsistema, se implemento el paquete "Reproduccion" el cual contiene las clases de "Lista" y la clase "PanelDeReproduccion" los cuales son indispensables para la reproducción de la música en una lista establecida.
+Basandose en la creacion del diagrama de subsistema, se implemento el paquete "Reproductor" el cual contiene las clases de "Lista" y la clase "PanelDeReproduccion" los cuales son indispensables para la reproducción de la música en una lista establecida.
 
 La clase "Lista" permite crear una lista en base a las músicas que se vayan creando, esta lista podrá ser creada siempre y cuando el usuario este interesado en una música y necesite crear una lista.
 Esta clase contiene métodos que llevan a cabo su funcionalidad:
