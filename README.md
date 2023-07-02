@@ -3,7 +3,7 @@
 [Carpeta src](https://github.com/ShanderGonzalez/Spotify_Grupo5/tree/master/src "Carpeta src"): Contiene todos los paquetes que se crearon en el proyecto de Spotify
    1. [NSpotifyChino](https://github.com/ShanderGonzalez/Spotify_Grupo5/tree/master/src/NSpotifyChino "NSpotifyChino")
    2. [Administrador](https://github.com/ShanderGonzalez/Spotify_Grupo5/tree/master/src/Administrador "Administrador")
-   3. [Reproduccion](https://github.com/ShanderGonzalez/Spotify_Grupo5/tree/master/src/Reproduccion "Reproduccion")
+   3. [Reproductor](https://github.com/ShanderGonzalez/Spotify_Grupo5/tree/master/src/Reproduccion "Reproductor")
    4. [Usuario](https://github.com/ShanderGonzalez/Spotify_Grupo5/tree/master/src/Usuario "Usuario")
 
       Los paquetes en 1, 2, 3, 4 contienen las clases .java que se implementaron en el proyecto.
