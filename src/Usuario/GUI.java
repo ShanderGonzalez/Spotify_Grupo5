@@ -488,7 +488,7 @@ public class GUI {
                         String artista =  tipoBusqueda.getTipoDeBusqueda().toString();
                                     
                         System.out.println("Inserte el nombre del artista a buscar: ");
-                        String artistaABuscar = scanner.next();
+                        String artistaABuscar = scanner.nextLine();
                                     
                         List<String[]> listaResultadosArtista= tipoBusqueda.BuscarMusicaArtista(artista, conexion, artistaABuscar);
                                   

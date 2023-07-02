@@ -18,8 +18,6 @@ import java.util.logging.Logger;
  * @author tandr
  */
 public class CompartirMusica extends NanoHTTPD{
-    private Object Lista;
-    private Object Musica;
     private static final int PUERTO = 8080;
     public String RUTA_ARCHIVO_MUSICA;
     
@@ -65,21 +63,5 @@ public class CompartirMusica extends NanoHTTPD{
     public void detenerServidor() {
         stop(); //e.printStackTrace();
         System.out.println("Servidor detenido.");
-    }
-
-    public Object getLista() {
-        return Lista;
-    }
-
-    public void setLista(Object Lista) {
-        this.Lista = Lista;
-    }
-
-    public Object getMusica() {
-        return Musica;
-    }
-
-    public void setMusica(Object Musica) {
-        this.Musica = Musica;
     }
 }

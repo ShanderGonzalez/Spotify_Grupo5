@@ -5,36 +5,22 @@
 package Reproductor;
 
 import java.sql.Connection;
-import java.util.List;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.sql.ResultSet;
-import java.util.ArrayList;
 
 /**
  *
  * @author tandr
  */
 public class Lista {
-    private List<String[]> lista;
     private Connection conexion;
 
     public Lista() {
-        lista = new ArrayList<>();
+   
     }
     
-    public Lista(List<String[]> lista) {
-        this.lista = lista;
-    }
-
-
-    public List<String[]> getLista() {
-        return lista;
-    }
-
-    public void setLista(List<String[]> lista) {
-        this.lista = lista;
-    }
+  
     public void crearLista(Connection conexion,String nombreLista, int idUsuario) {
         // Insertar la lista de reproducción en la base de datos
         String insertQuery = "INSERT INTO LISTADEREPRODUCCION (ID_USUARIO, NOMBRE_LISTA) VALUES (?, ?)";

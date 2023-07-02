@@ -26,9 +26,6 @@ public class ControlDeBusqueda{
         this.conexion = conexion;
     }
 
-    
-   
-
     public String getTipoDeBusqueda() {
         return tipoDeBusqueda;
     }

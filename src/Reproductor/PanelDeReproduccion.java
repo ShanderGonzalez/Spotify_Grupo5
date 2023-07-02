@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class PanelDeReproduccion {
     private Clip clip;
     private Long currentPosition;
-    private boolean paused;
+    private boolean paused = false;
     
     public PanelDeReproduccion() {
     }
@@ -31,7 +31,6 @@ public class PanelDeReproduccion {
                 System.out.println("===== MENU DE REPRODUCCIÓN =====");
                 System.out.println("1. Pausar");
                 System.out.println("2. Reanudar");
-                //System.out.println("3. Detener");
                 System.out.println("0. Salir");
                 System.out.print("Seleccione una opcion: ");
                 opcion = scanner.nextInt();
